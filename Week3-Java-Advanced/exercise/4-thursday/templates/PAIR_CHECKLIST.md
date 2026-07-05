@@ -1,6 +1,6 @@
 # Pair review checklist (Thursday)
 
-**Reviewer name:** _______________ **Author / track:** A or B _______________
+**Reviewer name:** ______Benson_________ **Author / track:** A or B _______________
 
 - [ ] Code runs without stack traces on happy path.
 - [ ] Collection choice matches README (Map / Set / Queue).

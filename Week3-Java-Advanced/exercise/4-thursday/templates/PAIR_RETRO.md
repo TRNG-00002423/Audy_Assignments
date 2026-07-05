@@ -1,6 +1,6 @@
 # Pair retro — Week 3 Thursday
 
-**Pair names:** __________________ / __________________
+**Pair names:** _______Audy___________ / _____Benson_____________
 
 1. **What went well?** (tools, communication, division of work)
 
@@ -10,4 +10,4 @@
 
 4. **One thing you would refactor next session:**
 
-5. **Time spent:** ~____ hours
+5. **Time spent:** ~__1.3__ hours

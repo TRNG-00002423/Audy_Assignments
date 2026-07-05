@@ -1,0 +1,24 @@
+17:32:47.238 [main] INFO  pair.a.words - WordFrequencyApp started
+17:32:47.242 [main] DEBUG pair.a.words - Processing token: java
+17:32:47.243 [main] DEBUG pair.a.words - Processing token: collections
+17:32:47.243 [main] DEBUG pair.a.words - Processing token: maps
+17:32:47.243 [main] DEBUG pair.a.words - Processing token: sets
+17:32:47.243 [main] DEBUG pair.a.words - Processing token: queues
+17:32:47.243 [main] DEBUG pair.a.words - Processing token: lambdas
+17:32:47.243 [main] DEBUG pair.a.words - Processing token: java
+17:32:47.243 [main] DEBUG pair.a.words - Processing token: maps
+17:32:47.243 [main] DEBUG pair.a.words - Processing token: and
+17:32:47.243 [main] DEBUG pair.a.words - Processing token: sets
+17:32:47.243 [main] DEBUG pair.a.words - Processing token: and
+17:32:47.243 [main] DEBUG pair.a.words - Processing token: more
+17:32:47.243 [main] DEBUG pair.a.words - Processing token: java
+17:32:47.244 [main] INFO  pair.a.words - Computed 8 unique words and 8 total entries
+17:32:47.246 [main] INFO  pair.a.words - WordFrequencyApp finished
+17:32:47.539 [main] WARN  pair.b.tasks - Task queue drained completely
+17:32:55.389 [main] INFO  pair.b.tasks - TaskQueueApp started
+17:32:55.393 [main] DEBUG pair.b.tasks - Drained task: Task [priority=3, description=cooking]
+17:32:55.394 [main] DEBUG pair.b.tasks - Drained task: Task [priority=2, description=guitar]
+17:32:55.394 [main] DEBUG pair.b.tasks - Drained task: Task [priority=1, description=walk dog]
+17:32:55.394 [main] WARN  pair.b.tasks - Task queue drained completely
+17:32:55.394 [main] INFO  pair.b.tasks - TaskQueueApp finished
+17:39:55.066 [TaskQueueApp.main()] WARN  pair.b.tasks - Task queue drained completely
