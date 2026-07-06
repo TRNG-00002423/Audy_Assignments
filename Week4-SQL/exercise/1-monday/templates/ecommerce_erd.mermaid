@@ -3,26 +3,47 @@
 
 erDiagram
     CUSTOMER {
-        %% primary_key id
-        %% string email UK
+        int id PK
+        string email UK
+        string phone
+    }
+
+    ADDRESS {
+        int id PK
+        int customer_id FK
+        string street
+        string city
+        string state
+        string zip
+        string label
     }
 
     PRODUCT {
-        %% primary_key id
-        %% string sku UK
+        int id PK
+        string sku UK
+        string name
+        decimal price
+        int stock_on_hand
     }
 
     ORDER_HEADER {
-        %% primary_key id
-        %% fk customer_id
+        int id PK
+        int customer_id FK
+        int address_id FK
+        date order_date
+        string status
     }
 
     ORDER_LINE {
-        %% composite PK or surrogate — your choice
+        int id PK
+        int order_id FK
+        int product_id FK
+        int quantity
+        decimal unit_price
     }
 
-    %% Add ADDRESS (or customer_address) and any junction tables you need.
-
-    %% CUSTOMER ||--o{ ORDER_HEADER : places
-    %% ORDER_HEADER ||--|{ ORDER_LINE : contains
-    %% PRODUCT ||--o{ ORDER_LINE : referenced_by
+    CUSTOMER ||--o{ ADDRESS : has
+    CUSTOMER ||--o{ ORDER_HEADER : places
+    ADDRESS ||--o{ ORDER_HEADER : ships_to
+    ORDER_HEADER ||--|{ ORDER_LINE : contains
+    PRODUCT ||--o{ ORDER_LINE : referenced_by
